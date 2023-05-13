@@ -1,11 +1,7 @@
 const btns = document.querySelectorAll(".btn");
 const overlay = document.querySelector(".overlay");
 const form = document.querySelector('.callback-form');
-
- 
 const body = document.querySelector('body');
-
-
 
 btns.forEach(function(btn){
 btn.addEventListener('click', function(){
